@@ -1,0 +1,13 @@
+#cc-banner[hidden]{display:none!important}
+#cc-banner{position:fixed;inset:auto 0 0 0;background:rgba(0,0,0,.5);z-index:9999;display:flex;justify-content:center;align-items:flex-end;padding:16px}
+#cc-panel{background:#fff;color:#111;width:min(900px,calc(100% - 24px));border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.24);padding:18px;margin-bottom:4px}
+#cc-panel h2{margin:.2rem 0 .4rem;font-size:1.2rem}
+#cc-panel p{margin:.4rem 0}
+#cc-details summary{cursor:pointer;padding:.4rem 0;font-weight:600}
+.cc-row{display:block;margin:.4rem 0}
+.cc-actions{display:flex;gap:.6rem;margin-top:.6rem;flex-wrap:wrap}
+#cc-accept,#cc-reject,#cc-save{border:0;border-radius:10px;padding:.6rem .9rem;cursor:pointer}
+#cc-accept{background:#0b57d0;color:#fff}
+#cc-reject{background:#111;color:#fff}
+#cc-save.secondary{background:#e6e8eb;color:#111}
+.cc-links a{color:#0b57d0;text-decoration:underline}
