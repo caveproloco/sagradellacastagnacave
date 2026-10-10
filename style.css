@@ -1709,8 +1709,7 @@ html{ scroll-behavior: smooth; }
   height:auto;
   border-radius:20px;
   box-shadow:0 6px 24px rgba(0,0,0,.12);
-  aspect-ratio: 16 / 10;   /* ← coerente con la tua immagine */
-  object-fit: cover;
+  object-fit: contain;
 }
 @media (max-width:768px){ .food-hero{ margin:16px 0 24px; } }
 
